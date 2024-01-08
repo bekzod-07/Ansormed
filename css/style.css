@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.header {
+    margin-top: 20px;
+}
+
+.header--child--one {
+    display: flex;
+}
+
+.header--child--one img {
+    width: 60px;
+    height: 60px;
+}
+
+.header--child--one h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.header--child--one ul {
+    display: flex;
+    list-style-type: none;
+    gap: 43px;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 5px;
+    background: #DE2E54;
+    color: #fff;
+    padding: 12px 24px 12px 24px;
+    border-radius: 8px;
+    border: 2px solid #DE2E54;
+}
+
+
+.nav {
+    margin-top: 30px;
+    background-color: #0EB4C1;
+    color: white;
+    height: 504px;
+}
+
+.nav--child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav--child--one h2 {
+    margin-top: 120px;
+    font-size: 32px;
+}
+
+.nav--child--one p {
+    margin-top: 20px;
+    width: 450px;
+    font-size: 20px;
+}
+
+.nav--child--one .btn {
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+
+.section {
+    margin-top: 100px;
+}
+
+.section--child--one {
+    display: flex;
+    margin-left: 200px;
+}
+
+.section--child--one--two {
+    margin-left: 50px;
+}
+
+.section--child--one--two h2 {
+    margin-top: 40px;
+}
+
+.section--child--one--two p {
+    margin-top: 20px;
+    width: 500px;
+}
+
+.section--btn {
+    margin-top: 30px;
+    margin-left: 500px;
+}
+
+
+.article {
+    margin-top: 100px;
+    height: 250px;
+    background: #0EB4C1;
+    color: white;
+}
+
+.article--child h2 {
+    text-align: center;
+    font-size: 42px;
+    padding-top: 60px;
+}
+
+.article--child .btnn {
+    width: 200px;
+    height: 40px;
+    background: none;
+    border: none;
+    border: 2px solid #fff;
+    color: white;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.article--child .btn {
+    margin-left: 300px;
+}
+
+.footer {
+    background: #222;
+    color: white;
+    height: 100px;
+}
+
+.footer--child .header--child--one {
+    padding-top: 20px;
+}
+
+.footer--child .header--child--one ul {
+    margin-left: 450px;
+}
